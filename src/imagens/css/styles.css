@@ -1,0 +1,11 @@
+ body{
+    background-color: #000000;
+    font-family: "Oxanium", cursive;
+    color: white;
+ }
+
+ .cabecalho{
+    display: flex;
+    background-color: aqua;
+     
+ }
