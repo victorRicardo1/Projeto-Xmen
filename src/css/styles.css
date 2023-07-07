@@ -7,7 +7,7 @@
  body::before{
     /*é um pseudo elemento que vai criar um elemento html que não existe no proprio html*/
     content: "";
-    background-image: url(../bg-desktop.jpg);
+    background-image: url(../imagens/bg-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
