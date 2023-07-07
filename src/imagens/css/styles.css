@@ -4,8 +4,79 @@
     color: white;
  }
 
- .cabecalho{
-    display: flex;
-    background-color: aqua;
-     
+ body::before{
+    /*é um pseudo elemento que vai criar um elemento html que não existe no proprio html*/
+    content: "";
+    background-image: url(../bg-desktop.jpg);
  }
+
+ .cabecalho{
+    display: flex; 
+    justify-content: center;
+ }
+
+ .selecao-de-personagens{
+    display: flex;
+    flex-direction: row; /*O padrão flexbox é row, então nao precisaríamos coloca-lo aqui, coloquei apenas para a prova que não faz diferença */
+    align-items: center; /*alinha verticalmente*/
+    gap: 30px;
+    min-height: calc(100vh - 152px);
+    justify-content: center;
+ }
+
+.selecao-de-personagens .lista-personagens{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* vai quebrar os elementos um pra baixo do outro quando não tem espaço dentro da div.*/
+    gap: 30px; /*espaçamento entre os itens, no caso as imagens*/
+}
+
+.selecao-de-personagens .personagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px; 
+    gap: 25px;
+}
+
+.selecao-de-personagens .personagens .titulo{
+    font-size: 20px;
+    letter-spacing: 4px; /*Espaçamento entre letrar*/
+    text-transform: uppercase;
+    border-bottom: 2px solid #47f4ff;
+    width: 100%;
+    text-align: center;
+}
+
+.lista-personagens .personagem img{
+    width: 100%;
+    height: 100%;
+}
+
+.lista-personagens .personagem.selecionado{
+    box-shadow: 0px 0px 24px 5px #0271f7;
+}
+
+.personagem-selecionado{
+    text-align: center;
+    max-height: 530px;
+
+}
+
+.personagem-selecionado .personagem-grande{
+    width: 430px;
+    height: 430px;
+}
+.personagem-selecionado .nome-personagem{
+    border-bottom: 2px solid #0271f7;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.personagem-selecionado .descricao-personagem{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    width: 420px;
+}
