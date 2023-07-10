@@ -65,6 +65,11 @@
     box-shadow: 0px 0px 24px 5px #0271f7;
 }
 
+.lista-personagens .personagem.selecionado:hover{
+    box-shadow: 0px 0px 24px 5px #0271f7;
+    transition: 0.3s;
+}
+
 .personagem-selecionado{
     text-align: center;
     max-height: 530px;
