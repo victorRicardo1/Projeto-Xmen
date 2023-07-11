@@ -80,6 +80,7 @@
     width: 430px;
     height: 430px;
 }
+
 .personagem-selecionado .nome-personagem{
     border-bottom: 2px solid #0271f7;
     text-transform: uppercase;
