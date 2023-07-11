@@ -1,7 +1,6 @@
 # Projeto-Xmen
-Here we will see my first project, I created an x ​​man character selector to see details about the selected hero.
-IN PROGRESS..
+Here we will see my first project, I created an x ​​man character selector to show details about the selected hero.
+## FINISHED
+Veremos aqui meu primeiro projeto de muitos, criei um seletor de personagens do x-man para mostrar os detalhes do personagem selecionado
+## FINALIZADO
 
-Aqui veremos meu primeiro projeto, criei um seletor de personagens dos X-mens para mostrar detalhes sobre o personagem selecionado
-
-EM PROGESSO..
